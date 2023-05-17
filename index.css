@@ -1,0 +1,201 @@
+
+
+#site-banner {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    height: 32px;
+}
+
+body {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1610912187558-QY5XPR6H6B4SJGXDU3A3/35.jpg");
+      
+
+	font-family: tuna, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+    /*background-color: rgb(49, 104, 224);*/
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
+}
+
+.text {
+    text-align: center;
+    color: #ffffff;
+}
+
+.sociallinks {
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.scrollable {
+    overflow-y: auto;
+}
+
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#repo-card {
+    box-shadow: 0 0 12px 12px rgba(0, 0, 0, 0.1);
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+}*/
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 44px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 38px;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    border-width: 0;
+    color: #161616;
+    background-color: #161616;
+}
+
+a {
+    font-size: 25px;
+    color: #fd0000;
+    text-decoration:solid;
+}
+
+th {
+    padding: 4px;
+}
+
+p {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+i {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: white;
+    background-color: #919191;
+}
+
+
+/* Hide scrollbar */
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 3px solid rgb(255, 193, 182);
+    width: auto;
+    height: 15%;
+    
+  }
+
+ 
+td:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  /*@mixin btn-border-drawing($color: #ccc, $hover: black, $width: 2px, $vertical: top, $horizontal: left, $duration: 0.25s) {
+    box-shadow: inset 0 0 0 $width $color;
+    color: $color;
+    transition: color $duration $duration/3;
+    position: relative;
+    
+    td::before,
+    td::after {
+      border: 0 solid transparent;
+      box-sizing: border-box;
+      content: '';
+      pointer-events: none;
+      position: absolute;
+      width: 0; height: 0;
+      
+      #{$vertical}: 0; 
+      #{$horizontal}: 0;
+    }
+  
+    td::before {
+      $h-side: if($horizontal == 'left', 'right', 'left');
+      
+      border-#{$vertical}-width: $width;
+      border-#{$h-side}-width: $width;
+    }
+    
+    td::after {
+      $v-side: if($vertical == 'top', 'bottom', 'top');
+      
+      border-#{$v-side}-width: $width;
+      border-#{$horizontal}-width: $width;
+    }
+    
+    td:hover {
+      color: $hover;
+      
+      td::before,
+      td::after {
+        border-color: $hover;
+        transition: border-color 0s, width $duration, height $duration;
+        width: 100%;
+        height: 100%;
+      }
+      
+      td::before { transition-delay: 0s, 0s, $duration; }
+      
+      td::after { transition-delay: 0s, $duration, 0s; }
+    }
+  }
+  
+  .td{
+    @include btn-border-drawing(#58afd1, #ffe593, 4px, bottom, right);
+  }
+  
+ 
+  .td{
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem 'Roboto Slab', sans-serif;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+    
+  }*/
+  
+ 
